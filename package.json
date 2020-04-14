@@ -1,6 +1,6 @@
 {
   "name": "@ovh-ux/ng-ovh-responsive-page-switcher",
-  "version": "1.1.1",
+  "version": "0.0.0",
   "description": "It detects available width for displaying page in 2 distinct modes",
   "keywords": [
     "page",
@@ -29,11 +29,13 @@
     "version": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
   },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-angular": "^8.3.4",
     "@ovh-ux/component-rollup-config": "^7.0.1",
-    "angular-scenario": "~1.7.9",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-formatter-pretty": "^3.0.1",
@@ -46,8 +48,6 @@
   "peerDependencies": {
     "angular": "^1.7.5",
     "angular-animate": "^1.5.0",
-    "angular-sanitize": "^1.5.0",
-    "matchmedia-ng": "~1.0.5",
-    "lodash": "^4.17.11"
+    "matchmedia-ng": "~1.0.5"
   }
 }

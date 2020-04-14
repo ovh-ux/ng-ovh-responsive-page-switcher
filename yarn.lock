@@ -1055,11 +1055,6 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
-angular-scenario@~1.7.9:
-  version "1.7.9"
-  resolved "https://registry.yarnpkg.com/angular-scenario/-/angular-scenario-1.7.9.tgz#9cc408abe639e2a3306df764b4043ff4625988ea"
-  integrity sha512-YoCx7YkO3ntQZ0wVI0vRLVBARYxbLe92YW6O5WJM4sbKOV9ERo4PhQxPT5sK4wlSt9FVibOke3Ia8E6sPBaP5A==
-
 ansi-escapes@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-3.2.0.tgz#8780b98ff9dbf5638152d1f1fe5c1d7b4442976b"
